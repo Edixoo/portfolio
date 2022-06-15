@@ -1,0 +1,282 @@
+
+
+body
+{
+    font-family: Arial;
+    font-size: 15;
+    line-height:150%;
+    margin:0px;
+}
+
+header
+{
+    background-color: #333333;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 20px;
+    height:60px;
+    overflow:hidden;
+}
+
+header div
+{
+    margin:-10px;
+    position:relative;
+}
+
+header div div
+{
+    color:white;
+    background-color: #888888;
+    position:absolute;
+    top:10px;
+    right:0px;
+    box-sizing: border-box;
+    width: 200px;
+    padding:10px;
+    font-size:66%;
+    line-height: 125%;
+}
+
+nav
+{
+    background-color: #eeeeee;
+    text-align: center;
+    line-height: 300%;
+
+}
+
+nav ul
+{
+    padding:0px;
+    margin:0px;
+}
+
+
+nav li
+{
+    display:inline-block;
+    width: 100px;
+}
+
+h1
+{
+    font-family:'Trebuchet MS';
+    font-size: 200%;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+h2
+{
+    font-family:'Trebuchet MS';
+    font-size:150%;
+    text-transform: uppercase;
+}
+
+h3
+{
+    font-family:'Trebuchet MS';
+    font-size:115%;
+    font-weight:bold;
+}
+
+footer
+{
+    background-color: #333333;
+    padding: 10px;
+}
+
+footer a
+{
+    color:#888888;
+}
+
+a
+{
+    color:#ff8800;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    background-color: orange;
+}
+
+img
+{
+    float:right;
+    clear:bottom;
+}
+
+div
+{
+    width: 600px;
+    margin:auto;
+}
+
+@media only screen
+and (min-device-width : 300px)
+and (max-device-width : 768px)
+and (orientation : portrait) {
+  /* Styles */
+    body{
+        background-color: rgb(53, 53, 53);
+    }
+    
+    header,article,footer
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header
+    {
+        background: linear-gradient(purple, orange);
+    }
+
+    header div{
+        text-align: center;
+        width: auto;
+        font-size: 35px;
+        margin-top: auto;
+    }
+
+    header div div
+    {
+        display:none;
+    }
+
+    nav::before
+    {
+        content:'MENU  ↓';
+        font-size:20px;
+    }
+
+    nav{
+        background-color: rgb(43, 43, 43);
+        color:white;
+        border:2px solid white;
+    }
+
+    nav li
+    {
+        display:none;
+    }
+
+    nav:hover li
+    {
+        width: auto;
+        text-align:left;
+        border-top: 1px solid white;
+        display:block;
+
+    }
+
+    nav:hover a{
+        margin-left:20px;
+    }
+
+    nav a:hover{
+        background-color: purple;
+    }
+
+    article{
+        color:white;
+        animation-duration: 3s;
+        animation-name:glissement;
+    }
+
+    @keyframes glissement {
+         from{
+             margin-left: 100%;
+             width:300%;
+         }
+         to{
+             margin-left:0%;
+             width:100%;
+         }
+    }
+
+    img
+    {
+        float: none;
+        width: 100%;
+        transition: transform 2s;
+
+    }
+
+    div
+    {
+        width: 95%;
+    }
+
+
+    h1
+    {
+        padding:5px;
+        background-color: orange;
+        color: white;
+        line-height: 30px;
+    }
+
+    h2
+    {
+        padding:5px;
+        background-color: purple;
+        color:white;
+    }
+
+    h3
+    {
+        padding:2px;
+        background-color: orange;
+        color: white;
+        line-height: 30px;
+    }
+
+    footer{
+        background: linear-gradient(orange, purple);
+        border-top: 2px solid white;
+    }
+
+    footer a{
+        color:white;
+
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  /* Styles */
+    div{
+        width: 80%;
+    }
+    h1{
+        text-align: left;
+    }
+}
+
+@media only screen
+and (min-device-width: 300px)
+and (max-device-width : 767px)
+and (orientation:landscape){
+  /* Styles */
+    div{
+        width: 100%;
+    }
+    header,article,footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1{
+        text-align: left;
+    }
+    header div div{
+        display:none;
+    }
+}
