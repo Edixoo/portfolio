@@ -1,282 +1,473 @@
 
 
-body
+*{
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	color: white;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	background: #15110C;
+}
+
+p{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+h1{
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 30px;
+	color : black;
+}
+
+a{
+	color: #ff9900;
+}
+
+a:hover {
+	text-decoration:none ;
+}
+
+div {
+position:relative;
+}
+
+ol,ul {
+list-style-position:inside;
+}
+
+.in {
+width:900px;
+margin:auto;
+}
+
+strong {
+	color:black ;
+}
+
+#header {
+	background: #1E1912;
+	}
+
+#header .in {
+	background: url("img/panda.jpg") 30px top no-repeat;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#header .in a {
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+#header .in span a {
+	display: block;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: none;
+	color: #ff9900;
+	text-align:center ;
+}
+
+#menu{
+	height: 50px;
+	margin-top:-25px;
+	margin-bottom:-25px;
+	z-index:20;
+}
+
+#menu .in ul li {
+	float: left;
+	width: 150px;
+	height: 50px;
+	display:block;
+}
+
+#menu .in ul li a{
+	background-color: #ff9900;
+	display:block;
+	border-top: 1px #ffbb44 solid;
+	border-bottom: 1px #dd8800 solid;
+	color: #222211;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	width: 100% ;
+	height: 100% ;
+}
+#menu .in ul li a:hover
 {
-    font-family: Arial;
-    font-size: 15;
-    line-height:150%;
-    margin:0px;
+	background-color: #ffbb44 ;
 }
 
-header
-{
-    background-color: #333333;
-    color:white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 150%;
-    padding: 20px;
-    height:60px;
-    overflow:hidden;
+#headline {
+background: url("img/tiger-d.jpg") center top no-repeat;
+background-color: #1E1912;
 }
 
-header div
-{
-    margin:-10px;
-    position:relative;
+#headline .in{
+padding-top: 340px; 
+padding-bottom: 100px;
 }
 
-header div div
-{
-    color:white;
-    background-color: #888888;
-    position:absolute;
-    top:10px;
-    right:0px;
-    box-sizing: border-box;
-    width: 200px;
-    padding:10px;
-    font-size:66%;
-    line-height: 125%;
+#headline h1 {
+	color: #ff9900 ;
+	padding-right: 340px;
+	display:block ;
 }
 
-nav
-{
-    background-color: #eeeeee;
-    text-align: center;
-    line-height: 300%;
-
+#headline p {
+	font-size : 16px; 
+	line-height: 30px; 
+	padding-right: 340px; 
 }
 
-nav ul
-{
-    padding:0px;
-    margin:0px;
+#headline ol {
+	position:absolute;
+	list-style-type: none ;
+	right: 0px ;
+	width: 270px; 
+	top: 100px; 	
+}
+#headline li {
+	background-color: #d9d4be ;
+	padding: 10px ;	
+}
+#headline #petition {
+	background-color: #e6e4d8;
+}
+
+#headline #share {
+	margin-top: 10px;
+}
+#headline #petition  p {
+	color: #222211 ;
+	padding : 0px ;
+	font-size: 14px;
+	line-height: 20px;
+}
+#headline #donation p {
+	color : #222211 ;
+	padding : 0px ;
+	font-size: 14px;
+	line-height: 20px;	
+}
+#headline  h2 {
+	color:#222211;
+	padding: 5px 5px 5px 35px;
+}
+#headline .in a {
+	display:block;
+	height: 20px;
+	width: auto;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-color :#ff9900 ;
+	color: white ;
+	text-align:center ;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:18px;
+	line-height:20px; 
+	box-shadow: -3px 3px 0px #bbb ;
+	font-weight: normal ;
+}
+#headline #donation a {
+	background-color:#ff5400
+	}
+#headline #share .facebook a {
+	background-color:#3b5998 ;
+}
+#headline #share .twitter a{
+	background-color: 4099FF ;
+}
+
+#headline #petition a:hover {                         
+	background-color:  #ffbb44 ;
+}
+
+#headline #donation a:hover {
+	background-color: #ffbb44;
+}
+#headline #share a:hover {
+	background-color:#ffbb44;
+}
+#headline li#petition::before{
+content:"1";
+display:block;
+height:20px;
+width:20px;
+padding:5px;
+margin:0px;
+background-color:#ff9900;
+color:white;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+font-size:18px;
+line-height:20px;
+box-shadow: -3px 3px 0px #bbbbbb;
+position:absolute;
+}
+#headline li#donation::before{
+content:"2";
+display:block;
+height:20px;
+width:20px;
+padding:5px;
+margin:0px;
+background-color:#ff9900;
+color:white;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+font-size:18px;
+line-height:20px;
+box-shadow: -3px 3px 0px #bbbbbb;
+position:absolute;
+}
+#headline li#share::before{
+content:"3";
+display:block;
+height:20px;
+width:20px;
+padding:5px;
+margin:0px;
+background-color:#ff9900;
+color:white;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+font-size:18px;
+line-height:20px;
+box-shadow: -3px 3px 0px #bbbbbb;
+position:absolute;
 }
 
 
-nav li
-{
-    display:inline-block;
-    width: 100px;
+#headline li#donation a::after{
+content:" →";
 }
 
-h1
-{
-    font-family:'Trebuchet MS';
-    font-size: 200%;
-    text-align:center;
-    text-transform: uppercase;
-    font-weight:bold;
+
+
+#feature li a::after{
+content:" >";
 }
 
-h2
-{
-    font-family:'Trebuchet MS';
-    font-size:150%;
-    text-transform: uppercase;
+#feature {
+	height: 220px; 
+	padding-top: 20px;
+	padding-bottom:20px;
+	display:block ;	
+
+}
+#feature .in ul li {
+	height: 160px;
+	width: 280px ;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:10px;
+	margin-left:10px;
+	float:left;
+	background: url("img/tiger-pencil.jpg") center repeat ;
+	background-size:cover ;
 }
 
-h3
-{
-    font-family:'Trebuchet MS';
-    font-size:115%;
-    font-weight:bold;
+
+#feature .in ul li span a {
+	color:white ;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none ;
+	text-transform: uppercase;
+	position: absolute;
+	padding: 10px;
+	background-color: #ff9900 ;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:-10px;
+	height: 20px;
+	width: auto;
+	display:block;
+	line-height:20px;
 }
 
-footer
-{
-    background-color: #333333;
-    padding: 10px;
+
+#news {
+	background-color:#1e1912 ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display:block ;
 }
 
-footer a
-{
-    color:#888888;
+#news .in ul li {
+	border-bottom: 1px #2f271c solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-a
-{
-    color:#ff8800;
-    text-decoration: none;
+#news .in strong {
+	text-transform: uppercase ;
 }
 
-a:hover{
-    color:white;
-    background-color: orange;
+#footer {
+	margin-top: 120px;
+	padding-bottom: 40px ;
+	font-size: 32px;
+	
+}
+#footer .in ul li {
+	display: inline ;
 }
 
-img
-{
-    float:right;
-    clear:bottom;
+#footer .in ul li a {
+	font-size:12px ;
+	position: relative ;
 }
 
-div
-{
-    width: 600px;
-    margin:auto;
+#footer .in li::before{
+content:"|";
+color:white;
+padding-left:10px;
+padding-right:10px;
 }
+
+#footer .in li:nth-last-child::before{
+content: "    ";
+}
+#footer .in li:nth-first-child::before{
+content: "    ";
+}
+
+/* ----------------------------- VERSION TABLETTE ----------------------------- */
 
 @media only screen
-and (min-device-width : 300px)
-and (max-device-width : 768px)
-and (orientation : portrait) {
-  /* Styles */
-    body{
-        background-color: rgb(53, 53, 53);
-    }
-    
-    header,article,footer
-    {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    header
-    {
-        background: linear-gradient(purple, orange);
-    }
-
-    header div{
-        text-align: center;
-        width: auto;
-        font-size: 35px;
-        margin-top: auto;
-    }
-
-    header div div
-    {
-        display:none;
-    }
-
-    nav::before
-    {
-        content:'MENU  ↓';
-        font-size:20px;
-    }
-
-    nav{
-        background-color: rgb(43, 43, 43);
-        color:white;
-        border:2px solid white;
-    }
-
-    nav li
-    {
-        display:none;
-    }
-
-    nav:hover li
-    {
-        width: auto;
-        text-align:left;
-        border-top: 1px solid white;
-        display:block;
-
-    }
-
-    nav:hover a{
-        margin-left:20px;
-    }
-
-    nav a:hover{
-        background-color: purple;
-    }
-
-    article{
-        color:white;
-        animation-duration: 3s;
-        animation-name:glissement;
-    }
-
-    @keyframes glissement {
-         from{
-             margin-left: 100%;
-             width:300%;
-         }
-         to{
-             margin-left:0%;
-             width:100%;
-         }
-    }
-
-    img
-    {
-        float: none;
-        width: 100%;
-        transition: transform 2s;
-
-    }
-
-    div
-    {
-        width: 95%;
-    }
-
-
-    h1
-    {
-        padding:5px;
-        background-color: orange;
-        color: white;
-        line-height: 30px;
-    }
-
-    h2
-    {
-        padding:5px;
-        background-color: purple;
-        color:white;
-    }
-
-    h3
-    {
-        padding:2px;
-        background-color: orange;
-        color: white;
-        line-height: 30px;
-    }
-
-    footer{
-        background: linear-gradient(orange, purple);
-        border-top: 2px solid white;
-    }
-
-    footer a{
-        color:white;
-
-    }
+and (min-device-width : 700px)    
+and (max-device-width : 1000px)
+and (orientation:portrait) {
+div .in {
+width:100%;
+margin:auto;
 }
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-  /* Styles */
-    div{
-        width: 80%;
-    }
-    h1{
-        text-align: left;
-    }
+body {
+	background: #1E1912;
 }
 
-@media only screen
-and (min-device-width: 300px)
-and (max-device-width : 767px)
-and (orientation:landscape){
-  /* Styles */
-    div{
-        width: 100%;
-    }
-    header,article,footer {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    h1{
-        text-align: left;
-    }
-    header div div{
-        display:none;
-    }
+
+#menu:before{
+	content:'MENU';
+	text-align: center; 
+	background-color: #ff9900;
+	display:block;
+	line-height: 50px;
+	font-size:25px;
+}
+
+ 
+#menu .in ul li {
+	display:none;
+}
+
+#menu:hover .in ul li{
+	background-color: #ff9900;
+	display:block;
+	border-top: 1px #ffbb44 solid;
+	border-bottom: 1px #dd8800 solid;
+	color: #222211;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	width: 100%  ;
+	height: 100% ;
+}
+
+#headline {
+background: url("img/tiger-d.jpg") center top no-repeat;
+margin-top: 50px ;
+background-color: #1E1912;
+}
+
+#headline .in{
+padding: 0px ;
+}
+
+#headline h1 {
+	color: #ff9900 ;
+	padding-top: 340px ;
+	margin: 20px ;
+	padding-right: 0px ;
+	}
+	
+#headline p {
+	color: white ;
+	margin: 20px;
+	padding-right: 0px ;
+	}
+
+#headline ol {
+	margin-top: 50px ;
+	position:relative;
+	width: 100%; 
+	top:0px ;
+}
+
+#headline ol li {
+	background-color: #d9d4be ;
+	padding: 10px ;	
+	float:left ;
+	position:center ;
+	margin: 10px ;
+	width: 175px ;
+	height: 120px ;
+	padding-bottom : 150px ;
+}
+
+#headline #petition a{
+	height:auto;
+}
+
+#feature .in li{
+	display:block ;
+	height:200px;
+	clear: left;
+	width:100%;
+	position:relative, center;
+
+
+}
+#news{
+	display:block;
+}
 }
