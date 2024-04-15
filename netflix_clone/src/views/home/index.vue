@@ -198,53 +198,28 @@ export default {
           isActive: false
         },
         {
-          title: 'Filme 16',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWUOCF9KZkMLTvJjKDXchw2t_fOdSSzLNN9isoaVT6iHbtL_RNljK64wCr5nNzl1EU5m35zH-CgaDWHeI-VM531YLYdaxmkkE6gqdS_TemZPQYmGQNXLLtkWQy_us9eWhj0EREAB-A73dDMEL_OvUJijemg6dT_qbC-09cpA0flM7hcv5bAkbkHPGDtG70g.jpg?r=a27',
+          title: 'CQLD',
+          image: './CQLD.png',
           isActive: false
         },
         {
-          title: 'Filme 17',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABa8hXQ5QbzpMiBTV4zL0iIw39XZVNaZebNTYyYA0cnFeIZH9fzTwfOb1wvS8F1_Yszz0NHEJl0T7AIv9uxolPTRn6HJCvPDHSo-0JVRIoVCIGSNsLPDGBq_C9bT3_iyCFVcD60p4I9pXwszGuzgh93MH9wDFnN9rLTuA7EFZb8tSXXqaimVdRWrTK0b6duLy-D2K765N2L1lSQgJrXOOCwXaRZkB3XJbc1NYeHBvFgwPYAKS10SlCA7-_hTXVyZXZEOc7WopSs1QsrsJGtWJTybK05QEnCyh0p6hIBXbkMOT5HW1wqzOewLqgq_PVDUaqT45cLCgcOBoQ_4Ai3mR_qo.webp?r=615',
+          title: 'ArtVR',
+          image: './ArtVR.jpg',
           isActive: false
         },
         {
-          title: 'Filme 18',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVrKAo6PY8hm-Y_Xrw-v2QPd7UqET7-Kgqc6Ql3HjZdDBNO81LkR6cu_ur8aLY72n6Tl_u0N8yxiuGdTls8tUTTwvm9kq7MIoZE.webp?r=ced',
+          title: 'Donde Esta La Biblioteca',
+          image: './DONDE_ESTA_LA_BIBLIOTECA.jpg',
           isActive: false
         },
         {
-          title: 'Filme 19',
+          title: 'Portfolio',
           image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRHacg_vOuBxv1TYiWOQ7rylV0mhRzhs15bI8BOfx0vuqovXrM8o5N9ycYPEEHMDCLxxY94HPxsuuvWA_EGrd1aAz9KrFbJ6vujJjEtkKYF2AJTFozs8GsU2nkHp2UlvT3JF09nz9WjXywApidr-QtMTxpa5Foob4MU.webp?r=b9c',
           isActive: false
         },
         {
-          title: 'Filme 20',
+          title: 'PPCC',
           image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABS1l__N3JrgFdHmg40AWNJJme3v5PvMqQ4CKPfIAEKB4_jmHrn8ev-vWzouldI8KU5sZTHOwOlvE6C_MZJpiu7jAd3n7Ol42tAeDDmcYS8-FacPFbUDyv487o2I8QNYbbAJx.jpg?r=2c4',
-          isActive: false
-        },
-        {
-          title: 'Filme 21',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTm5PulkjOb4KnInLfSheY8Gkb4iPm7WTMrXHONDiUF-IYt6Zp2Ev1mkEDwnwAh_njzndMPnFPzz4uLH4WCHgB3n8i-KKHPib9DzHXzaNGHmifJ9TqPt2oAJthinzMq4R1qGRGk28V5SOUg6pjaSeTzR8Qna4Pbc6qY.webp?r=316',
-          isActive: false
-        },
-        {
-          title: 'Filme 22',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYM5sMrfGQ7NHOJpAQXQJFGScjwUEciYL6yLPXZvRvIO_3e4bjI0cwAyDtYadgcIXGVSEUkfZyd5irvcMHvRr-yeNtS3S4t2-bbtt3-J_8kfiXjYF3MzlA9F6jkEfupZ5eqG3t-sD_sk-f8chc8apiTD0eng4KcSoMbiaeFKZO2boYogs5BEkHMd4tQQt1Y.jpg?r=7d9',
-          isActive: false
-        },
-        {
-          title: 'Filme 23',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZSMRVpJ2rzNE-niYMZeq84wWHraUAkEgiwHmDa2x_P9od7Ca3yEcAAbv03EBd4fLeGHUYuw5VTUznmbiAMcgqdn1aqxtAQvUKkA0AOmVO--4fQcYH0vhmzDcOdj6bnKgjFU8ZXat3bcI5AXG7bEPsyWWVuMgXjQ6lY.webp?r=8e8',
-          isActive: false
-        },
-        {
-          title: 'Filme 24',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcBwm-YTYnthECXxtGiLO4gMJA9GDW5F7445LFcdRemPtMLRzMfAv_DFOXaEOdbrp-nQC8BOwEr4SgGPorVAagSOyDk5tZn7skpPAq-iKxZ7jAip_O5UVFYv-Uv02AcJCisk.jpg?r=d1d',
-          isActive: false
-        },
-        {
-          title: 'Filme 25',
-          image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABekT9V2ztrymgn9ssl6XrJcaR7CUrl-xPyqWn6IWAjBxQ6v47Zh0qxvDALFAivB5E8gw6PT4OgHt2wJDKkA9Y4M196eVeSaiUT6hmrIk-Tap5GNJBHEcH_xuYfjX67nq-ib2jPk0e-lxCdVijzKWGW10UMSOG4REgkaiC6xtb-xtX-424YD2KhvmbfGH3LgEylJfzcHiQa6MFKulErg4_36TvwkwdYeavFZIf7_qEqJ0fvOeUpyFtzu-yY3ILlVrV2YTzzHZpvMSehtW3fUAAG8OcGpcftVyUC1LRzwNZH0ZZBryYRyr5kBOjyVa_rclexjmUrX3C8j5-Zr5VIcm-_xJNn7Dic2dcskLXybaKn3RtGEmZMlD3y9iYBDOj9GfejRx-DH1VHOZmL7mj07EF7ogua3EfnSBnynKPQjIlO0FudQkUmDu-kIBRqBT-Nj3Xpx0_ktGvQyuuTc.jpg?r=14d',
           isActive: false
         }
       ],
