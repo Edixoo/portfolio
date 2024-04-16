@@ -1,3 +1,21 @@
+<script setup>
+import { onMounted, ref } from 'vue'
+
+const headerHeight = ref(0)
+
+onMounted(() => {
+  headerHeight.value = document.querySelector('v-app-bar').offsetHeight
+})
+
+function navigationOnClick (id) {
+  const element = document.getElementById(id)
+  window.scrollTo({
+    top: element.offsetTop - headerHeight.value,
+    behavior: 'smooth'
+  })
+}
+</script>
+
 <template>
   <v-main class="pa-0 ma-0">
     <v-app-bar
@@ -7,6 +25,7 @@
     >
     <v-app-bar-nav-icon
       class="mx-16 pl-9"
+      disabled
       >
         <v-img
           :src="require('../assets/fontbolt.png')"
@@ -15,35 +34,27 @@
         />
       </v-app-bar-nav-icon>
 
-      <v-btn text small :ripple="false">
-        Profile
+      <v-btn text small :ripple="false" @click="navigationOnClick('profil')">
+        Profil
       </v-btn>
 
-      <v-btn text small :ripple="false">
+      <v-btn text small :ripple="false" @click="navigationOnClick('comp')">
         Compétences
       </v-btn>
 
-      <v-btn text small :ripple="false">
+      <v-btn text small :ripple="false" @click="navigationOnClick('projets')">
         Projets
       </v-btn>
 
-      <v-btn text small :ripple="false">
+      <v-btn text small :ripple="false" @click="navigationOnClick('xp')">
         Expériences Professionelles & Formations
       </v-btn>
 
-      <v-btn text small :ripple="false">
+      <v-btn text small :ripple="false" @click="navigationOnClick('contact')">
         Contact
       </v-btn>
 
       <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn text small :ripple="false">
-        Infantil
-      </v-btn>
 
       <v-btn icon>
         <v-icon>mdi-bell</v-icon>
@@ -65,14 +76,3 @@
     </v-container>
   </v-main>
 </template>
-
-<script>
-export default {
-  name: 'App',
-
-  data: () => ({
-    //
-  })
-}
-/* eslint-disable */
-</script>

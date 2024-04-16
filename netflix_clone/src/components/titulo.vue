@@ -54,7 +54,7 @@
             </v-chip>
       </v-col>
 
-      <v-col cols="4">
+      <v-col cols="12">
         <p class="subheading font-weight-regular">
           Bonjour ! Je m'appelle Paul Pruvost, j'ai 20 ans. Je suis un développeur FullStack JS.
           Je suis passionné par le développement web et j'ai une expérience de 1 an dans celui-ci.
@@ -65,16 +65,19 @@
 
       <v-col
         cols="12"
+
       >
         <v-btn
           class="black--text mr-2"
           color="white"
+          @click="navigationOnClick('contact')"
         >
           <v-icon color="black">mdi-play</v-icon>
             Contactez-moi
         </v-btn>
         <v-btn
           color="red"
+          href="cv.pdf"
         >
           <v-icon>mdi-download</v-icon>
             Télécharger CV

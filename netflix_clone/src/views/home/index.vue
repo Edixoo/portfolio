@@ -4,23 +4,39 @@
       class="imgFundoPrincipal"
       gradient="(200deg, rgba(0, 0, 0, 0) 0.50%, #000000 71.04%)"
     >
-    <titulo class="pb-10"/>
+      <v-row class="align-center">
+        <v-col>
+          <titulo id="profil"/>
+        </v-col>
+      <v-col>
+        <v-img
+          class="profilPicture"
+          width="300"
+          height="300"
+          src="https://fakeimg.pl/500/"
+        />
+      </v-col>
+
+      </v-row>
     <obras
       class="pt-10"
       :obras="itemsUm"
       titulo="Compétences"
+      id="comp"
     />
     <obras
       class="pt-5"
       :obras="itemsDois"
       titulo="Projets"
+      id="projets"
     />
     <obras
       class="pt-5"
       :obras="itemsTres"
       titulo="Expériences professionnelles & Formations"
+      id="xp"
     />
-    <Contact/>
+    <Contact id="contact"/>
     </v-img>
     <v-footer
     padless
@@ -48,51 +64,22 @@
       </v-card-text>
 
       <v-row class="caption font-weight-light pa-0 ma-0">
-      <v-col cols="3">
-        Audidescrição
-      </v-col>
-      <v-col cols="3">
-        Central de ajuda
-      </v-col>
-      <v-col cols="3">
-        Cartão pré-pago
-      </v-col>
-      <v-col cols="3">
-        Imprensa
-      </v-col>
-      <v-col cols="3">
-        Relação com investidores
-      </v-col>
-      <v-col cols="3">
-        Carreiras
-      </v-col>
-      <v-col cols="3">
-        Termos de uso
-      </v-col>
-      <v-col cols="3">
-        Privacidade
-      </v-col>
-      <v-col cols="3">
-        Avisos legais
-      </v-col>
-      <v-col cols="3">
-        Preferência de cookies
-      </v-col>
-      <v-col cols="3">
-        Informações corporativas
-      </v-col>
-      <v-col cols="3">
-        Entre em contato
-      </v-col>
-      <v-col class="pa-2 ml-2 mt-5" cols="2" style="border: 1px solid #ccc; ">
-        Código do serviço
-      </v-col>
       <v-col cols="12">
-        &copy; 1997-2023 Netflix, Inc.
+        &copy; 2003-2024 Paul Pruvost.
       </v-col>
       </v-row>
     </v-card>
   </v-footer>
+
+    <v-dialog>
+      <v-card>
+        <v-card-title>
+          <span class="headline">
+            Contact me
+          </span>
+        </v-card-title>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
 
@@ -274,5 +261,11 @@ export default {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+.profilPicture {
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-top: 10%;
 }
 </style>
