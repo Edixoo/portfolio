@@ -24,16 +24,14 @@
                 class="d-flex align-center mx-1 cursor-pointer imgJanela"
                 @mouseover="item.isActive = true"
                 @mouseout="item.isActive = false"
-              >
-              </v-img>
-
-          </v-card>
-        </div>
+              />
+              </v-card>
+            </div>
           </v-carousel-item>
-  </v-carousel>
+        </v-carousel>
 
     <v-dialog v-model="viewDetail" width="auto">
-      <details-card :item="currentItem"/>
+      <details-card :item="currentItem" @dialogActivate="dialogActivate"/>
     </v-dialog>
 </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="ml-16 horizontal-scroll">
-    <v-card-title class="font-weight-bold pr-5 ma-0" style="color: #e5e5e5; font-size: 27px !important;">Contact me</v-card-title>
+    <v-card-title class="font-weight-bold pr-5 ma-0" style="color: #e5e5e5; font-size: 27px !important;">Contactez-moi</v-card-title>
     <div class="contact__formulaire">
       <v-form ref="form" action="https://formspree.io/f/mayrlgra" method="post" class="formulaire">
         <v-text-field
@@ -55,6 +55,7 @@ const submitForm = () => {
   .buttonSubmit {
     margin-left: 65%;
     margin-top: 2em;
+    margin-bottom: 50px;
   }
 }
 </style>
