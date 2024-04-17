@@ -195,7 +195,7 @@ export const projets = [
   },
   {
     title: 'Portfolio',
-    image: 'https://occ-0-5446-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRHacg_vOuBxv1TYiWOQ7rylV0mhRzhs15bI8BOfx0vuqovXrM8o5N9ycYPEEHMDCLxxY94HPxsuuvWA_EGrd1aAz9KrFbJ6vujJjEtkKYF2AJTFozs8GsU2nkHp2UlvT3JF09nz9WjXywApidr-QtMTxpa5Foob4MU.webp?r=b9c',
+    image: './portfolio.png',
     description: 'Portfolio est un projet de site web personnel développé en HTML, CSS et JavaScript. Le site web présente des informations sur le développeur, ses compétences, ses projets et ses expériences. Les utilisateurs peuvent naviguer sur le site pour découvrir le travail du développeur, consulter ses projets et contacter le développeur pour des opportunités de collaboration.',
     lien: 'https://github.com/Edixoo/portfolio',
     liaison: {

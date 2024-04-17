@@ -76,7 +76,7 @@ const getXpList = (listXp) => {
           </v-card-text>
           <v-card-text v-if="currentItem.date">
             <span>
-              Date : {{ currentItem.date[0] + ' - ' + (currentItem.date[1] || 'Maintenant') }}
+              Date : {{ currentItem.date[0] + (currentItem.date[1] ? ' - ' + currentItem.date[1] : '') }}
             </span>
           </v-card-text>
         </v-col>
