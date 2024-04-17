@@ -174,7 +174,7 @@ export const projets = [
   },
   {
     title: 'ArtVR',
-    image: './ArtVR.jpg',
+    image: './ARTVR.jpg',
     description: 'ArtVR est un projet de réalité virtuelle en Unity. Le but du projet est de proposer aux utilisateurs une expérience immersive et interactive pour découvrir et explorer des œuvres d\'art en 3D. Les utilisateurs peuvent naviguer dans un musée virtuel, interagir avec les œuvres d\'art et lire des informations sur les artistes et les œuvres. Le projet inclut la modélisation 3D des œuvres d\'art, la programmation des interactions, la conception de l\'environnement virtuel et l\'optimisation des performances.',
     lien: 'https://github.com/BerdinClement/artVR',
     team: 'Clément Berdin, Marine Langrez, Antoine Bacquet, Paul Pruvost',
